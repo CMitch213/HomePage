@@ -15,7 +15,7 @@ This was made using HTML, CSS, and JavaScript. I had not used JS before this hen
 *Congrats yu have opened it
 The file path if you followed this should be: /HOMEPAGE/HOMEPAGE/NewWebsite/home.html
 
-### If-You-Have-Bugs
+## If-You-Have-Bugs
 You can submit it in the Issues tab however if that doesn work you can:
 DM me on Discord at **CMitch#4022**
 or email me at **coopjmitchell@gmail.com**
