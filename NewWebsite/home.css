@@ -1,3 +1,91 @@
+.buttons {
+  position: absolute;
+  /*border: 5px solid;*/
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.YT {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.YT:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.YT:active{
+  opacity: 0.6;
+}
+
+.GH {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.GH:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.GH:active{
+  opacity: 0.6;
+}
+
+.nice {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.nice:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.nice:active{
+  opacity: 0.6;
+}
+
 /* 
 HAMBURGER MENU START
 */
@@ -146,7 +234,20 @@ HAMBURGER MENU START
 
 /* HAMBURGER MENU END */
 
+
+/*
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: center;
+  width: 150px;
+}
+*/
+
 html {
-    height: 100%;
-    background: rgb(53,57,62);
-    }
+  height: 100%;
+  background: rgb(53,57,62);
+}

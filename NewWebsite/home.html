@@ -2,20 +2,13 @@
 
 <html>
     <head>
-        <title>About-Page</title>
+        <title>Home-Page</title>
     </head>
     <body>
 
-        <link rel="stylesheet" href="about.css"> 
-
-        <h1>
-
-        </h1>
-
+        <link rel="stylesheet" href="home.css"> 
         
-        <div class="buttons">
-
-        </div>
+        <script src="./home.js"></script>
 
         <nav role="navigation">
             <div id="menuToggle">
@@ -41,12 +34,35 @@
               -->
               <ul id="menu">
                 <a href="home.html"><li>Home</li></a>
-                <a href="about.css"><li>About</li></a>
+                <a href="about.html"><li>About</li></a>
                 <a href="website.html"><li>Playground</li></a>
                 <a href="contact.html"><li>Contact</li></a>
               </ul>
             </div>
-          </nav>
+        </nav>
+
+        <div>
+            <h1 class="title", style="color: whitesmoke; font-size: 75px; text-align: center;" >
+                Home-Page
+            </h1>
+        </div>
+        
+        <div class="buttons">
+            <button class="YT", onclick="window.location.href = 'https://www.youtube.com';" value="youtube">
+                <ion-icon name="logo-youtube"></ion-icon>
+                YouTube
+            </button>
+            <button class="GH", onclick="window.location.href = 'https://www.github.com';" value="github">
+                <ion-icon name="logo-github"></ion-icon>
+                Github
+            </button>
+            <button class="nice" id="nice" onclick="showAlert()">
+                69
+            </button>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     </body>
 </html>
