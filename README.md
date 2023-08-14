@@ -8,11 +8,17 @@ This was made using HTML, CSS, and JavaScript. I had not used JS before this hen
 
 ## How-To-Open
 *First, make a folder to store all the attached files in. You can  name this something like HOMEPAGE
+<br>
 *Download the files off the github to your new folder
+<br>
 *Double click to open the folder that you made
+<br>
 *Double click the NewWebsite folder
+<br>
 *Double click the home.html file
+<br>
 *Congrats yu have opened it
+<br>
 The file path if you followed this should be: /HOMEPAGE/HOMEPAGE/NewWebsite/home.html
 
 ## If-You-Have-Bugs
