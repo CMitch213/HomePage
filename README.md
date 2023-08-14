@@ -17,7 +17,7 @@ This was made using HTML, CSS, and JavaScript. I had not used JS before this hen
 <br>
 *Double click the home.html file
 <br>
-*Congrats yu have opened it
+*Congrats you have opened it
 <br>
 The file path if you followed this should be: /HOMEPAGE/HOMEPAGE/NewWebsite/home.html
 
