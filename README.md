@@ -22,8 +22,10 @@ This was made using HTML, CSS, and JavaScript. I had not used JS before this hen
 The file path if you followed this should be: /HOMEPAGE/HOMEPAGE/NewWebsite/home.html
 
 ## If-You-Have-Bugs
-You can submit it in the Issues tab however if that doesn work you can:
+You can submit it in the Issues tab however if that doesn't work you can:
+<br>
 DM me on Discord at **CMitch#4022**
+<br>
 or email me at **coopjmitchell@gmail.com**
 
 ## KNOWN ISSUES
