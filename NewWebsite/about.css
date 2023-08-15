@@ -146,6 +146,52 @@ HAMBURGER MENU START
 
 /* HAMBURGER MENU END */
 
+.firstLine {
+  margin-top: 50px;
+}
+
+.line {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.words {
+  color: white;
+  font-size: clamp(2rem, 8vw, 10rem);
+  font-family: "Rubik", sans-serif;
+  margin: 0rem;
+  text-transform: uppercase;
+  transition: opacity 250ms ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+#text:has(.fancy:hover) .words:not(.fancy:hover) {
+  opacity: 0.2;
+}
+
+.fancy span {
+  display: inline-block;
+}
+
+.fancy > .outer {
+  transition: transform 350ms ease;
+}
+
+.fancy:hover{
+  
+}
+
+.fancy:hover > .outer {
+  transition-duration: 800ms;
+}
+
+.fancy:hover > .outer > .inner {
+  animation: float 5s ease infinite;
+}
+
 html {
     height: 100%;
     background: rgb(53,57,62);
