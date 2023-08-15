@@ -7,6 +7,10 @@ The reason to use this is for quick and easy access to several of the most popul
 This was made using HTML, CSS, and JavaScript. I had not used JS before this hense the tiny amount of it that is used. 
 
 ## How-To-Open
+Go to *https://cmitch213.github.io/HomePage/NewWebsite/home.html*
+<br>
+*or*
+<br>
 *First, make a folder to store all the attached files in. You can  name this something like HOMEPAGE
 <br>
 *Download the files off the github to your new folder
