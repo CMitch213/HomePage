@@ -1,5 +1,5 @@
 # HomePage
-### A Quick access to your favourite sites
+### A quick access to your favourite sites and other cool features
 
 ## Description
 This is a web home page that I am developing.
