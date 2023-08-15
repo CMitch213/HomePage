@@ -9,6 +9,18 @@
   justify-content: center;
 }
 
+.bottomButtons {
+  position: absolute;
+  /*border: 5px solid;*/
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}
+
 .YT {
   background-color: rgb(73, 78, 83);
   border: rgb(53,57,62);
@@ -83,6 +95,136 @@
 }
 
 .nice:active{
+  opacity: 0.6;
+}
+
+.TTV {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.TTV:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.TTV:active{
+  opacity: 0.6;
+}
+
+.G {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.G:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.G:active{
+  opacity: 0.6;
+}
+
+.AZ {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.AZ:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.AZ:active{
+  opacity: 0.6;
+}
+
+.STM {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.STM:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.STM:active{
+  opacity: 0.6;
+}
+
+.DC {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.DC:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.DC:active{
   opacity: 0.6;
 }
 
@@ -249,5 +391,6 @@ HAMBURGER MENU START
 
 html {
   height: 100%;
+  width: 100%;
   background: rgb(53,57,62);
 }
