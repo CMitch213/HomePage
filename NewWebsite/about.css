@@ -212,8 +212,8 @@ a {
   #menuToggle span
 {
   display: block;
-  width: 83px;
-  height: 10px;
+  width: 166px;
+  height: 20px;
   margin-bottom: 5px;
   position: relative;
   
@@ -255,7 +255,7 @@ a {
 
   .words {
     color: white;
-    font-size: 12vw;
+    font-size: 8vw;
     font-family: "Rubik", sans-serif;
     margin: 0rem;
     text-transform: uppercase;
