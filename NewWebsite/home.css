@@ -90,7 +90,9 @@
 }
 
 .nice:hover{
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to right, #5e548e, #9f86c0, #be95c4, #e0b1cb);
+  filter:blur(1px);
+  box-shadow: 0px, 5px, 20px, linear-gradient(to right, #5e548e, #9f86c0, #be95c4, #e0b1cb);
   opacity: 0.8;
 }
 
@@ -388,6 +390,36 @@ HAMBURGER MENU START
   width: 150px;
 }
 */
+
+/* PHONES */
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  
+  #menu{
+  position: absolute;
+  width: 100vw;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  height: 100vh;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menu li{
+    padding: 10px 0;
+    font-size: 42px;
+  }
+
+}
 
 html {
   height: 100%;
