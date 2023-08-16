@@ -230,12 +230,12 @@ a {
 
   #menu li{
     padding: 10px 0;
-    font-size: 42px;
+    font-size: 62px;
   }
 
   .words {
     color: white;
-    font-size: 20vw;
+    font-size: 12vw;
     font-family: "Rubik", sans-serif;
     margin: 0rem;
     text-transform: uppercase;
