@@ -441,8 +441,17 @@ HAMBURGER MENU START
 
 }
 
+.foot {
+  position: absolute;
+  width: 100vw;
+}
+
+body {
+  background-color: rgb(53,57,62)
+}
+
 html {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   background: rgb(53,57,62);
 }

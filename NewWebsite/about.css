@@ -264,6 +264,10 @@ a {
 
 }
 
+body {
+  background-color: rgb(53,57,62)
+}
+
 html {
     height: 100%;
     background: rgb(53,57,62);
