@@ -7,6 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+  display: flex;
 }
 
 .bottomButtons {
@@ -19,6 +21,45 @@
   align-items: center;
   justify-content: center;
   margin-top: 180px;
+}
+
+.trueBottomButtons {
+  position: absolute;
+  /*border: 5px solid;*/
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 340px;
+}
+
+.button {
+  background-color: rgb(73, 78, 83);
+  border: rgb(53,57,62);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+  transition: opacity 200ms;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.button:hover{
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.button:active{
+  opacity: 0.6;
 }
 
 .YT {
@@ -444,6 +485,10 @@ HAMBURGER MENU START
 .foot {
   position: absolute;
   width: 100vw;
+}
+
+.copyright {
+  align-items: end;
 }
 
 body {
