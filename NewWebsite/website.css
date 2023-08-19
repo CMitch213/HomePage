@@ -133,6 +133,10 @@ h1 {
 HAMBURGER MENU START
 */
 
+.tit {
+  font-size: 55px;
+}
+
 #menuToggle
 {
   display: block;

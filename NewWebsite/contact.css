@@ -146,6 +146,15 @@ HAMBURGER MENU START
 
 /* HAMBURGER MENU END */
 
+.foot {
+  position: absolute;
+  width: 100vw;
+}
+
+.copyright {
+  align-items: end;
+}
+
 body {
   background-color: rgb(53,57,62)
 }

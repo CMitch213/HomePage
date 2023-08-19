@@ -270,5 +270,6 @@ body {
 
 html {
     height: 100%;
+    width: 100vw;
     background: rgb(53,57,62);
     }
