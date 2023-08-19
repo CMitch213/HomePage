@@ -34,9 +34,9 @@ or email me at **coopjmitchell@gmail.com**
 
 ## KNOWN ISSUES
 ##### Known
-*None so far
+*CONTACT FOOTER AT TOP OF PAGE
 ##### Working on
-*None
+*CONTACT FOOTER AT TOP OF PAGE
 ##### Fixed
 *Bug with opening about page where it leads to source code
 
