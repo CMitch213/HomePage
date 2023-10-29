@@ -301,6 +301,66 @@ HAMBURGER MENU START
     font-size: 62px;
   }
 
+  .button{
+    background-color: rgb(73, 78, 83);
+    border: rgb(53,57,62);
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow 200ms;
+    transition: opacity 200ms;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 4px;
+    margin-top: 0px;
+  }
+
+  .buttons {
+    position: absolute;
+    /*border: 5px solid;*/
+    margin: auto;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    display: flex;
+  }
+
+  .bottomButtons {
+    position: absolute;
+    /*border: 5px solid;*/
+    margin: auto;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 72px;
+  }
+
+  .trueBottomButtons {
+    position: absolute;
+    /*border: 5px solid;*/
+    margin: auto;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 136px;
+  }
+
+  html {
+    height: 100%;
+    width: 100vw;
+    background: rgb(53,57,62);
+  }
 }
 
 .foot {
